@@ -1,0 +1,332 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.img{
+    background-image: url("https://source.unsplash.com/1600x1600/?food");
+    background-position: center;
+    background-size: cover;
+    width:100vw ;
+    height: 500px;
+    /* opacity: 0.5; */
+    
+    
+}
+ .tint{
+    background-color:rgb(0,0,0,0.554);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right:0;
+    bottom: 0;
+    
+
+} 
+.tint1{
+    background-color:rgb(0,0,0,0.554);
+    position: absolute;
+    top: 0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    border-radius: 8px;
+
+} 
+.tint-container{
+    position: relative;
+    
+}
+
+.container{
+    position: relative;
+    
+    
+}
+ .app{
+    display: flex;
+    gap: 10px;
+    
+    font-size: 16px;
+    position: absolute;
+    top: 25px;
+
+    left: 100px;
+    cursor: pointer;
+}
+
+.navbar-flex{
+    display: flex;
+    gap: 25px;
+    position: absolute;
+    top: 25px;
+    right: 200px;
+    font-size: 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+   
+    color: white;
+    cursor: pointer;
+   
+} 
+
+.heading{
+    font-size: 100px;
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    color: white;
+}
+h4{
+    font-size: 40px;
+    position: absolute;
+    top: 40%;
+    left: 22%;
+    color: white;
+}
+.search-flex{
+    display: flex;
+    position: relative;
+}
+.input{
+    display: flex;
+    position: absolute;
+    top: 55%;
+    left: 33%;
+    border: none;
+    
+}
+.search-ins{
+    background-color:white;
+    padding: 10px;
+    border: none;
+    position: absolute;
+    left: 2px;
+    
+
+}
+.search{
+    padding: 10px 70px;
+    font-size: 16px;
+    border: none;
+    border-bottom-right-radius: 14px;
+    border-top-right-radius: 14px;
+}
+.location{
+    padding: 10px 80px;
+    font-size: 16px;
+    border-bottom-left-radius: 14px;
+    border-top-left-radius: 14px;
+    border: none;
+    text-align: right;
+
+}
+
+
+/* <<--cards-->> */
+
+.card1{
+    width: 550px;
+    
+    margin: 30px 0 0 200px;
+    border-radius: 14px;
+    border: 1px solid lightgray;
+    
+
+
+}
+.card1-img{
+    width: 100%;
+    height: 150px;
+    border-radius: 14px; 
+}
+.dining{
+    margin: 2px 0;
+    padding: 10px;
+    color: black;
+    font-weight: 400;
+}
+.cap{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-weight: 350;
+}
+.cards{
+    display: flex;
+    gap: 30px;
+   
+} 
+
+.card2{
+    width: 550px;
+    
+    margin: 30px 200px 0 0;
+    border-radius: 14px;
+    border: 1px solid lightgray;
+    
+
+
+}
+.card2-img{
+    width: 100%;
+    height: 150px;
+    border-radius: 14px; 
+}
+
+.collection-cards{
+    display: flex;
+    gap: 10px;
+
+    margin-left: 180px;
+}
+.c-img{
+    width: 280px;
+    border-radius: 8px;
+    
+}
+
+
+/* collections */
+
+
+.collection{
+    position: relative;
+    
+
+}
+.great-cafe{
+    position: absolute;
+    bottom: 50px;
+    color: white;
+    padding: 10px;
+}
+.places{
+    position: absolute;
+    bottom: 25px;
+    color: white;
+    padding: 10px;
+}
+.collections{
+    margin-left: 185px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    
+}
+.collection-head{
+    font-size: 35px;
+    font-weight: 600;
+
+}
+
+.font-color{
+    color: red;
+    margin-left: 70px;
+}
+.caption{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.cities{
+    display: flex;
+    width: 370px;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    gap: 250px;
+    padding: 15px 0 15px 8px;
+    
+}
+.city-container{
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+    margin-left: 180px;
+}
+.heading-city{
+    margin-top: 30px;
+    margin-left: 180px;
+    font-weight: 500;
+}
+.zomato-app{
+    width: 100vw;
+    background-color: seashell;
+
+    margin-top: 100px;
+    display: flex;
+    gap: 50px;
+    
+    
+}
+.zomato-container{
+    margin-left: 320px;
+    margin-top: 80px;
+}
+.get-app{
+    margin-top: 30px;
+    font-size: 45px;
+    font-weight: 400;
+    word-spacing: 2px;
+}
+
+.link{
+    font-size: 20px;
+}
+.label{
+    font-size: 20px;
+}
+.radio-1{
+    margin-left: 50px;
+    font-size: 16px;
+}
+.mail{
+    padding: 12px 30px;
+    font-size: 18px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+}
+.applink{
+    padding: 12px 30px;
+    border: 1px solid lightgray;
+    font-size: 18px;
+    border-radius: 8px;
+    color: white;
+    background-color: red;
+    margin-left: 4px;
+}
+
+.download{
+    margin: 15px 0 15px 0;
+    color: gray;
+    font-size: 18px;
+}
+.d-img1{
+    width: 150px;
+    margin-left: 20px;
+}
+.d-img{
+    width: 150px;
+    
+}
+.option1{
+    padding: 20px 180px;
+    font-size: 20px;
+
+    margin-left: 180px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+    
+}
+.explore-head{
+    margin-top: 40px;
+    margin-left: 180px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 400;
+}
